@@ -1,0 +1,188 @@
+@import url("./global.css");
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* HEADER CSS START */
+
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 60px 0px;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.navegation-header {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-sizes-body3);
+    color: var(--color-gray);
+}
+
+span {
+    color: var(--color-pink);
+    font-weight: bold;
+}
+
+
+.btn-pattern-header {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-sizes-body3);
+    font-weight: bold;
+    padding: 10px 24px;
+    border-radius: 10px;
+}
+
+/* HEADER CSS END */
+
+/* MAIN CSS START */
+
+.content-all-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 546px;
+}
+
+.content-all-main p {
+    width: 513px;
+    line-height: 140%;
+}
+
+.main-indicator{
+    display: flex;
+    gap: 8px;
+    padding: 10px 12px;
+    border: 1px solid var(--color-d-gray);
+    color: var(--color-pink);
+    font-size: var(--font-sizes-body4);
+    font-family: var(--font-family-alexandria);
+    font-weight: bold;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+h1 {
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-sizes-h1);
+    color: var(--color-white);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+p {
+    color: var(--color-gray);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-sizes-body2);
+}
+
+.main-btn-navegation {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-main-nav {
+    display: flex;
+    align-self: center;
+    gap: 6px;
+    color: var(--color-white);
+    border: 1.5px solid var(--color-d-gray);
+    border-radius: 10px;
+    padding: 18px 24px;
+    width: fit-content;
+}
+
+.btn-main-nav button {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-sizes-body3);
+}
+
+.btn-pattern-main {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-sizes-body3);
+    padding: 14px 24px;
+    border-radius: 10px;
+}
+
+/* MAIN CSS END */
+
+/* SECTION 1 - CSS START */
+
+.container-section-1 {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-l-black);
+    padding: 47.5px 0px;
+    gap: 56px;
+    text-transform: capitalize;
+}
+
+.img-count-section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-count-section-1 h2 {
+    color: var(--color-pink);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-sizes-h2);
+}
+
+/* SECTION 1 - CSS END */
+
+/* SECTION 2 - CSS START */
+
+.container-section-2 {
+    padding: 40px 0px;
+}
+
+.section-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-indicator span {
+    font-size: var(--font-sizes-body4);
+    font-family: var(--font-family-alexandria);
+    font-weight: bold;
+    padding: 12px 20px;
+    border: 1px solid var(--color-d-gray);
+    border-radius: 24px;
+    width: fit-content;
+}
+
+.section-indicator h2 {
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-sizes-h2);
+    color: var(--color-white);
+}
+
+.section-indicator p {
+    width: 572px;
+}

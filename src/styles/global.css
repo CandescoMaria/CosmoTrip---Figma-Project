@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* COLOR FONTS */
+
+    --color-white: #FFFFFF;
+    --color-l-black: #0F0F0F;
+    --color-black: #000000;
+    --color-d-gray: #4D4D4D;
+    --color-gray: #999999;
+    --color-pink: #FF3CAC;
+
+    /* FONT SIZES */
+
+    --font-sizes-h1: 50px;
+    --font-sizes-h2: 45px;
+    --font-sizes-h3: 27px;
+    --font-sizes-h4: 21px;
+    --font-sizes-body1: 20px;
+    --font-sizes-body2: 18px;
+    --font-sizes-body3: 16px;
+    --font-sizes-body4: 14px;
+
+    /* FONT FAMILY */
+
+    --font-family-alexandria: "Alexandria", sans-serif;
+    --font-family-inter: "Inter", sans-serif;
+}
