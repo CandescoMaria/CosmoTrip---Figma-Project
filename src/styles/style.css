@@ -157,6 +157,10 @@ p {
 /* SECTION 2 - CSS START */
 
 .container-section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
     padding: 40px 0px;
 }
 
@@ -184,5 +188,128 @@ p {
 }
 
 .section-indicator p {
+    text-align: center;
     width: 572px;
 }
+
+.destiny-content-all-box {
+    display: flex;
+    gap: 20px;
+}
+
+.destiny-card-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--color-l-black);
+    border-radius: 18.30px;
+    width: 364px;
+    height: 488px;
+}
+
+.destiny-information-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 14.4px;
+    gap: 20px;
+}
+
+.destiny-card-box h3 {
+    color: var(--color-white);
+    font-size: var(--font-sizes-h3);
+    font-family: var(--font-family-inter);
+    align-self: center;
+    font-weight: bold;
+}
+
+.destiny-rating p {
+    font-size: var(--font-sizes-body4);
+}
+
+.destiny-price p {
+    font-size: var(--font-sizes-body4);
+    font-family: var(--font-family-alexandria);
+}
+
+.destiny-price h4 {
+    font-size: var(--font-sizes-h4);
+    font-family: var(--font-family-alexandria);
+    font-weight: bold;
+}
+
+.destiny-rating {
+    display: flex;
+    gap: 9.15px;
+}
+
+.destiny-price {
+    display: flex;
+    gap: 104.26px;
+}
+
+.destiny-calendar {
+    display: flex;
+    gap: 9.15px;
+    align-items: center;
+}
+
+.destiny-information-card button {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    font-size: var(--font-sizes-body4);
+    font-family: var(--font-family-alexandria);
+    border-radius: 9.15px;
+    padding: 9.15px 0px;
+}
+
+/* SECTION 2 - END  */
+
+/* SECTION 3 - CSS START */
+
+.container-section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 41.5px 0px;
+}
+
+.highlight-box-content {
+    display: flex;
+    gap: 20px;
+}
+
+.container-section-3 {
+    background-color: var(--color-l-black);
+}
+
+.box-cards-highlight {
+    background-color: var(--color-black);
+    border-radius: 20px;
+    width: 363px;
+    height: 356px;
+}
+
+.box-cards-highlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-cards-highlight h4 {
+    font-size: var(--font-sizes-h4);
+    font-family: var(--font-family-inter);
+    color: var(--color-white);
+}
+
+.box-cards-highlight p {
+    padding: 0px 35px;
+    text-align: center;
+    font-size: var(--font-sizes-body3);
+    font-family: var(--font-family-alexandria);
+}
+
+/* SECTION 3 - CSS END */
